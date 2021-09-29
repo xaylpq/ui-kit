@@ -1,0 +1,37 @@
+{
+  "name": "Webpack/React",
+  "short_name": "Webpack",
+  "scope": "/",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ebebeb",
+  "theme_color": "#171717",
+  "description": "Webpack 5 template",
+  "icons": [
+    {
+      "src": "./icons/64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "serviceworker": {
+    "src": "../service-worker.js"
+  }
+}
