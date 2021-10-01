@@ -1,5 +1,9 @@
 import React from "react";
+import { Button } from './Components/Button/Button'
 
 export const App = () => (
-  <h3>Loading ...</h3>
+    <div>
+        <h3>Loading ...</h3>
+        <Button text={'fsdf'}/>
+    </div>
 )
